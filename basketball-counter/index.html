@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" onclick="jump()">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <section id="team-section">
+            <p>Home</p>
+            <p>Guest</p>
+        </section>
+        <section id="points-section">
+            <div class="background-div">
+                <p id="home-points">0</p>
+            </div>
+            <div class="background-div">
+                <p id="guest-points">0</p>
+            </div>
+        </section>
+        <section id="adding-points-seciton">
+            <div class="three-class-points-divs">
+                <button onclick="homeAddOne()">+1</button>
+                <button onclick="homeAddTwo()">+2</button>
+                <button onclick="homeAddThree()">+3</button>
+            </div>
+            <div class="three-class-points-divs">
+                <button onclick="guestAddOne()">+1</button>
+                <button onclick="guestAddTwo()">+2</button>
+                <button onclick="guestAddThree()">+3</button>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
